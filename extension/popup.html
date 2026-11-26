@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>WikiAI Schema Peek</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header class="header"><img src="icons/icon48.png" width="36" height="36" alt=""><div><h1>WikiAI Schema Peek</h1><p id="subtitle">Entity Engineering &amp; JSON-LD Inspector</p></div><span class="version">v1.1.0</span></header>
+<main id="main">
+  <div class="toolbar"><div class="page" id="pageName" title=""></div><button class="outline" id="refresh" type="button" aria-label="Refresh">↻ <span data-i18n="refresh">Refresh</span></button></div>
+  <p id="status" class="status" role="status" aria-live="polite">Inspecting current page…</p>
+  <section id="results" hidden>
+    <div class="metrics"><div><strong id="metricBlocks">0</strong><span data-i18n="blocks">JSON-LD blocks</span></div><div><strong id="metricValid">0</strong><span data-i18n="parsed">Parsed</span></div><div><strong id="metricEntities">0</strong><span data-i18n="typed">Typed objects</span></div><div><strong id="metricErrors">0</strong><span data-i18n="errors">Errors</span></div></div>
+    <div id="notice" class="notice" hidden></div>
+    <nav class="tabs" role="tablist" aria-label="Inspection results"><button type="button" role="tab" id="tab-validation" aria-selected="true" aria-controls="panel-validation" data-i18n="validation">Checks</button><button type="button" role="tab" id="tab-entities" aria-selected="false" aria-controls="panel-entities" tabindex="-1" data-i18n="entities">Entities</button><button type="button" role="tab" id="tab-json" aria-selected="false" aria-controls="panel-json" tabindex="-1">JSON-LD</button><button type="button" role="tab" id="tab-page" aria-selected="false" aria-controls="panel-page" tabindex="-1" data-i18n="page">Page</button></nav>
+    <div role="tabpanel" id="panel-validation" aria-labelledby="tab-validation">
+      <div class="validation-summary" aria-label="Validation summary"><div><strong id="checkErrors">0</strong><span data-i18n="errors">Errors</span></div><div><strong id="checkWarnings">0</strong><span data-i18n="warnings">Warnings</span></div><div><strong id="checkInfo">0</strong><span data-i18n="information">Notes</span></div></div>
+      <p id="coverage" class="coverage"></p><p id="checkedCounts" class="muted compact"></p>
+      <label for="findingFilter" data-i18n="filterFindings">Show findings</label><select id="findingFilter"><option value="all" data-i18n="all">All</option><option value="error" data-i18n="errors">Errors</option><option value="warning" data-i18n="warnings">Warnings</option><option value="info" data-i18n="information">Notes</option></select>
+      <div id="findings" class="finding-list" aria-live="polite"></div>
+      <details class="validation-details"><summary data-i18n="scopeTitle">Scope &amp; sources</summary><p class="muted" data-i18n="scopeText">Vocabulary lookup and selected expected type checks. Not complete JSON-LD expansion or Rich Results eligibility.</p><p class="muted"><a href="https://schema.org/version/30.1/" target="_blank" rel="noopener noreferrer">Schema.org 30.1</a> · <a href="SCHEMA-ATTRIBUTION.txt" target="_blank" data-i18n="attribution">Attribution</a></p></details>
+    </div>
+    <div role="tabpanel" id="panel-entities" aria-labelledby="tab-entities" hidden><h2 data-i18n="types">Declared types</h2><div id="types" class="chips"></div><h2 data-i18n="relationships">Identifiers &amp; relationships</h2><div class="details-grid" id="relations"></div><div id="entityList" class="entity-list"></div><details id="sameDetails"><summary id="sameSummary">sameAs</summary><div id="sameList" class="line-list"></div></details><details id="repeatDetails" hidden><summary data-i18n="repeated">Repeated ID declarations</summary><p class="muted" data-i18n="repeatNote">Repeated IDs can be intentional graph references or descriptions, not necessarily errors.</p><div id="repeatList" class="line-list"></div></details></div>
+    <div role="tabpanel" id="panel-json" aria-labelledby="tab-json" hidden><label for="blockSelect" data-i18n="selectBlock">JSON-LD block</label><select id="blockSelect"></select><p id="blockStatus" class="muted"></p><textarea id="rawJson" readonly aria-label="JSON-LD source" spellcheck="false"></textarea><button type="button" class="outline" id="copyBlock" data-i18n="copyBlock">Copy block</button></div>
+    <div role="tabpanel" id="panel-page" aria-labelledby="tab-page" hidden><div id="pageDetails" class="details-grid stacked"></div><p class="muted" data-i18n="pageNote">These are declarations in the current DOM, not proof of crawling, indexing or search visibility.</p></div>
+    <div class="actions"><button id="copyReport" type="button" class="primary" data-i18n="copyReport">Copy JSON report</button><button id="saveReport" type="button" class="outline" data-i18n="saveReport">Save JSON</button></div>
+    <p id="feedback" role="status" aria-live="polite" class="feedback"></p>
+  </section>
+</main>
+<footer><span data-i18n="footer">Local analysis · no data sent</span><a href="https://www.wikiai.hu/" target="_blank" rel="noopener noreferrer">WikiAI.hu ↗</a></footer>
+<script type="module" src="popup.js"></script>
+</body></html>
