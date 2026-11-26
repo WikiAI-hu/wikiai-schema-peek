@@ -1,6 +1,6 @@
 # WikiAI Schema Peek — Free Use / Source-Available License 1.0
 
-**REVIEW DRAFT — 2026-11-26. Not yet effective.** This proposed license is staged privately for the rights holder's final review and adoption before public distribution. It does not itself grant new public permissions. Upon adoption, it applies to the official versions accompanied by this notice or expressly offered under it.
+**Adopted on 2026-11-26 — Version 1.0.** This license applies to official versions accompanied by this notice or expressly offered under it, including the official WikiAI Schema Peek 1.1.0 source and Chrome ZIP offered through this repository.
 
 Copyright © 2026 Várhelyi Csanád (Csanád Várhelyi), to the extent that copyright and other relevant rights in the original project material are held by him. All rights not expressly granted are reserved. Third-party material is excluded as described below.
 
@@ -42,7 +42,7 @@ For permissions, collaboration and support, use the official project contact via
 
 ## Magyar változat — ingyenes felhasználási és megtekinthető forráskódú licenc, 1.0
 
-**JÓVÁHAGYÁS ELŐTTI TERVEZET — 2026. november 26.** A dokumentum a jogosult végleges ellenőrzésére és elfogadására készült, a nyilvános kiadás előkészítéseként. Önmagában még nem ad új nyilvános felhasználási engedélyt. Elfogadását követően az e feltételekkel kifejezetten közzétett hivatalos verziókra vonatkozik.
+**Elfogadva: 2026. november 26. — 1.0 verzió.** A licenc az e tájékoztatással ellátott vagy kifejezetten e feltételekkel kínált hivatalos verziókra vonatkozik, beleértve a jelen repositoryban kínált hivatalos WikiAI Schema Peek 1.1.0 forráskódot és Chrome ZIP-csomagot.
 
 Copyright © 2026 Várhelyi Csanád, az eredeti projektanyag tekintetében őt megillető szerzői és egyéb jogok körében. Minden kifejezetten át nem engedett jog fenntartva. A harmadik féltől származó anyagokra külön feltételek vonatkoznak.
 

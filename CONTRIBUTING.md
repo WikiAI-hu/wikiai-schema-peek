@@ -1,6 +1,6 @@
 # Professional collaboration / Szakmai együttműködés
 
-WikiAI Schema Peek welcomes cooperation with developers, technical SEO and AI visibility specialists, researchers, accessibility and security professionals. It is a source-available freeware project with reserved rights, not an open-source project. The proposed [license](LICENSE.md) is currently staged for final approval. No unapproved modification or redistribution of protected original code is authorized by this guide.
+WikiAI Schema Peek welcomes cooperation with developers, technical SEO and AI visibility specialists, researchers, accessibility and security professionals. It is a source-available freeware project with reserved rights, not an open-source project. The [license 1.0](LICENSE.md) was adopted on 26 November 2026. No unapproved modification or redistribution of protected original code is authorized by this guide.
 
 ## How to collaborate
 
@@ -13,7 +13,7 @@ Do not submit material you do not have permission to contribute. Do not include 
 
 ## Magyarul
 
-Nyitottak vagyunk webfejlesztők, technikai SEO- és AI-láthatósági szakemberek, kutatók, akadálymentességi és biztonsági szakértők közreműködésére. A WikiAI Schema Peek jogfenntartásos, megtekinthető forráskódú, ingyenesen használhatónak tervezett szoftver, nem nyílt forráskódú projekt. A [licenc](LICENSE.md) jelenleg véglegesítés előtti tervezet.
+Nyitottak vagyunk webfejlesztők, technikai SEO- és AI-láthatósági szakemberek, kutatók, akadálymentességi és biztonsági szakértők közreműködésére. A WikiAI Schema Peek jogfenntartásos, megtekinthető forráskódú, ingyenesen használható szoftver, nem nyílt forráskódú projekt. A [licenc](LICENSE.md) 1.0 változatát 2026. november 26-án fogadta el a projektgazda.
 
 1. Nyilvános kiadás után a hibajelentések és fejlesztési javaslatok az Issues felületen (ha engedélyezett), vagy a [hivatalos termékoldal](https://www.wikiai.hu/wikiai-schema-peek/) kapcsolati útján küldhetők be. Add meg a verziót, az elvárt és a tapasztalt működést, lehetőleg mesterséges tesztpéldával.
 2. Kódmódosítás előkészítése vagy beküldése előtt kérj külön engedélyt. Előzetes egyeztetés nélküli kódos pull requestet ne küldj.

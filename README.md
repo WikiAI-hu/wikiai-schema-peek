@@ -21,7 +21,7 @@ Repeated IDs can be legitimate descriptions of the same entity. `sameAs` links a
 
 ## Install locally (developer testing)
 
-> The repository is currently private staging. Before any public release, the rights holder must adopt the [proposed free-use/source-available license](LICENSE.md). It permits ordinary personal and business use but reserves modification and redistribution rights in protected original code; separately licensed material and mandatory legal rights are unaffected. The current Chrome ZIP is preserved unchanged for review.
+> The official source and Chrome ZIP are offered under the [free-use/source-available license 1.0](LICENSE.md), adopted on 26 November 2026. It permits personal and business use but reserves modification and redistribution rights in protected original code; separately licensed material and mandatory legal rights are unaffected. The Chrome ZIP is unchanged from the submitted 1.1.0 package.
 1. Download [WikiAI-Schema-Peek-1.1.0-Chrome.zip](downloads/WikiAI-Schema-Peek-1.1.0-Chrome.zip) (SHA-256: see [checksum](docs/CHROME-ZIP-SHA256.txt)), or use the `extension/` directory of an authorized local checkout. Unzip the ZIP to a new folder if necessary.
 2. In Chrome open `chrome://extensions/`.
 3. Enable Developer mode. Choose **Load unpacked** and select the extracted folder containing `manifest.json`, or the checkout's `extension/` directory (not the ZIP itself).
@@ -47,7 +47,7 @@ Project: WikiAI Schema Peek. Professional concept: Várhelyi Csanád. WikiAI.hu 
 
 ## License and professional collaboration
 
-The project owner's stated licensing intent is free personal and professional use, including paid client audits, with reserved rights in the protected original code. Independent modifications, rebranding and redistribution of that code require separate permission, subject to mandatory legal rights and applicable platform terms. The proposed bilingual [LICENSE.md](LICENSE.md) awaits final adoption before public release. This is not an open-source license. The adapted Schema.org vocabulary retains its separate CC BY-SA 3.0 license; see [Schema.org attribution](extension/SCHEMA-ATTRIBUTION.txt).
+The license permits free personal and professional use, including paid client audits, with reserved rights in the protected original code. Independent modifications, rebranding and redistribution of that code require separate permission, subject to mandatory legal rights and applicable platform terms. The bilingual [LICENSE.md](LICENSE.md) was adopted on 26 November 2026 and applies to the official source and Chrome ZIP offered here. This is not an open-source license. The adapted Schema.org vocabulary retains its separate CC BY-SA 3.0 license; see [Schema.org attribution](extension/SCHEMA-ATTRIBUTION.txt).
 
 Professional cooperation, bug reports and feature ideas are welcome. Code contributions require prior written agreement; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -63,4 +63,4 @@ A WikiAI Schema Peek ingyenes, magyar és angol kezelőfelületű Chrome-bővít
 - Adatvédelem: https://www.wikiai.hu/wikiai-schema-peek/#privacy-policy
 - Szakmai koncepció: [Várhelyi Csanád](https://www.varhelyicsanad.hu/)
 
-A Chrome Web Store felülvizsgálata folyamatban van a projektgazda közlése szerint. A [kétnyelvű licenctervezet](LICENSE.md) az ingyenes magán- és üzleti használatot engedné, az eredeti, oltalom alatt álló kód módosítását és továbbterjesztését fenntartott jogként kezeli. Az alkalmazandó törvényi kivételek, platformjogok és a Schema.org külön licence érintetlenek. A végleges elfogadás a nyilvános kiadás előtt szükséges. A szakmai együttműködésre nyitottak vagyunk; részletek: [CONTRIBUTING.md](CONTRIBUTING.md).
+A Chrome Web Store felülvizsgálata folyamatban van a projektgazda közlése szerint. A [kétnyelvű licenc](LICENSE.md) 2026. november 26-án elfogadott 1.0 változata az ingyenes magán- és üzleti használatot engedi, az eredeti, oltalom alatt álló kód módosítását és továbbterjesztését fenntartott jogként kezeli. Az alkalmazandó törvényi kivételek, platformjogok és a Schema.org külön licence érintetlenek. A szakmai együttműködésre nyitottak vagyunk; részletek: [CONTRIBUTING.md](CONTRIBUTING.md).
