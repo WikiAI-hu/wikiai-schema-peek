@@ -4,6 +4,18 @@
 
 WikiAI Schema Peek is a lightweight browser extension that inspects structured data on the current page. It processes the current top-level rendered DOM locally, only when invoked. No account, AI API, analytics, server, or external dependency is required.
 
+## Install or try WikiAI Schema Peek
+
+**Publicly available since 27 November 2026.** Version 1.1.0 is free for personal and professional use under the [Free Use / Source-Available License 1.0](LICENSE.md).
+
+- [Install from the Chrome Web Store](https://chrome.google.com/webstore/detail/glegjhmdanhbloojggfdphgohgfmmheh) — recommended for regular users; no Developer mode needed.
+- [Try the browser-based demo on Hugging Face](https://huggingface.co/spaces/wikiaihu/wikiai-schema-peek) — paste JSON-LD for local inspection without installing the extension. The demo does not fetch websites or inspect the active browser tab.
+- [Product Hunt — public product launch](https://www.producthunt.com/products/wikiai-schema-peek?launch=wikiai-schema-peek) · [Csanád Várhelyi — Maker and Hunter](https://www.producthunt.com/@csanad_varhelyi).
+- [Official product page](https://www.wikiai.hu/wikiai-schema-peek/) · [English technical article](https://www.wikiai.hu/wikiai-schema-peek-a-practical-json-ld-and-entity-engineering-tool-for-chrome/) · [Privacy policy](https://www.wikiai.hu/wikiai-schema-peek/#privacy-en).
+- [Developer-mode ZIP 1.1.0](downloads/WikiAI-Schema-Peek-1.1.0-Chrome.zip) · [SHA-256 checksum](docs/CHROME-ZIP-SHA256.txt).
+
+Public availability on the Chrome Web Store or Product Hunt does not constitute Google, Schema.org or platform endorsement of the inspection results.
+
 ## What's new in 1.1.0
 - Bundled official Schema.org 30.1 vocabulary snapshot: **939 classes, 1,538 properties, 546 enumeration values**, full superclass hierarchy, and **309 selected domainIncludes/rangeIncludes rule definitions**. Source: `extension/SCHEMA-ATTRIBUTION.txt` (CC BY-SA 3.0 for the adapted vocabulary).
 - Vocabulary name checks, common datatype/shape guidance, domain/range warnings with inheritance, enum checks and cross-block `@id` resolution. Unknown or advanced contexts are treated as partial; no remote context is fetched.
@@ -27,7 +39,7 @@ Repeated IDs can be legitimate descriptions of the same entity. `sameAs` links a
 3. Enable Developer mode. Choose **Load unpacked** and select the extracted folder containing `manifest.json`, or the checkout's `extension/` directory (not the ZIP itself).
 4. Open a normal HTTP(S) page, click the extension icon in the Extensions menu, and optionally pin it.
 
-Version 1.1.0 was submitted to the Chrome Web Store on 26 November 2026, according to the project owner. Review is pending; this repository does not claim Store approval or listing availability. The official product documentation is at https://www.wikiai.hu/wikiai-schema-peek/. The repository download and any future GitHub release are intended for local developer testing, not a Store installation or automatic update channel.
+Version 1.1.0 was submitted on 26 November 2026 and publicly listed on the Chrome Web Store on 27 November 2026. For regular installation use the [official Chrome Web Store listing](https://chrome.google.com/webstore/detail/glegjhmdanhbloojggfdphgohgfmmheh). The repository ZIP is an alternative for local developer testing; it is not a Store installation or automatic update channel. Official product documentation: https://www.wikiai.hu/wikiai-schema-peek/
 
 ## Permissions and privacy
 - `activeTab`: temporary access to the active tab when the user invokes the extension.
@@ -44,6 +56,10 @@ Project: WikiAI Schema Peek. Professional concept: Várhelyi Csanád. WikiAI.hu 
 - WikiAI.hu: https://www.wikiai.hu/
 - Expert: https://www.wikiai.hu/szakertok/varhelyi-csanad/
 - Personal professional reference: https://www.varhelyicsanad.hu/
+- Software entity identifier: `https://www.wikiai.hu/wikiai-schema-peek/#software`
+- Professional concept, initiation and development direction: [Csanád Várhelyi](https://www.wikiai.hu/szakertok/varhelyi-csanad/) · [GitHub personal profile](https://github.com/varhelyicsanad) · [Product Hunt Maker profile](https://www.producthunt.com/@csanad_varhelyi)
+- Separate browser demo source: https://github.com/WikiAI-hu/hf-entity-lab-publisher/tree/main/schema-peek-space
+- WikiAI.hu organization on Hugging Face: https://huggingface.co/wikiaihu
 
 ## License and professional collaboration
 
@@ -55,6 +71,8 @@ Professional cooperation, bug reports and feature ideas are welcome. Code contri
 
 A WikiAI Schema Peek ingyenes, magyar és angol kezelőfelületű Chrome-bővítmény a JSON-LD, a Schema.org szókészlet, a deklarált entitáskapcsolatok és az aktuális oldal metaadatainak helyi vizsgálatához. Nem teljes körű validátor, nem mér keresési helyezést vagy AI-ajánlásokat.
 
+**Hivatalos telepítés:** A bővítmény 2026. november 27. óta elérhető a [Chrome Web Store-ban](https://chrome.google.com/webstore/detail/glegjhmdanhbloojggfdphgohgfmmheh). Válaszd a Hozzáadás a Chrome-hoz lehetőséget; fejlesztői mód nem szükséges. A [Hugging Face online demó](https://huggingface.co/spaces/wikiaihu/wikiai-schema-peek) telepítés nélkül, beillesztett JSON-LD adatokkal használható. A [Product Hunt termékbemutató](https://www.producthunt.com/products/wikiai-schema-peek?launch=wikiai-schema-peek) szintén 2026. november 27-én jelent meg.
+
 **Helyi teszttelepítés:** Töltsd le a [WikiAI Schema Peek 1.1.0 ZIP-csomagot](downloads/WikiAI-Schema-Peek-1.1.0-Chrome.zip), és csomagold ki. Nyisd meg a `chrome://extensions/` oldalt, engedélyezd a Fejlesztői módot, majd a Kicsomagolt bővítmény betöltése gombbal válaszd ki az `extension/` mappát vagy a külön telepítő-ZIP kicsomagolt, `manifest.json` fájlt tartalmazó mappáját. Ez fejlesztői teszttelepítés; automatikus áruházi frissítést nem biztosít.
 
 **Adatvédelem:** A feldolgozás helyi, a riport másolásáról vagy mentéséről a felhasználó dönt. A riport személyes adatokat is tartalmazhat; megosztás előtt ellenőrizd.
@@ -63,4 +81,4 @@ A WikiAI Schema Peek ingyenes, magyar és angol kezelőfelületű Chrome-bővít
 - Adatvédelem: https://www.wikiai.hu/wikiai-schema-peek/#privacy-policy
 - Szakmai koncepció: [Várhelyi Csanád](https://www.varhelyicsanad.hu/)
 
-A Chrome Web Store felülvizsgálata folyamatban van a projektgazda közlése szerint. A [kétnyelvű licenc](LICENSE.md) 2026. november 26-án elfogadott 1.0 változata az ingyenes magán- és üzleti használatot engedi, az eredeti, oltalom alatt álló kód módosítását és továbbterjesztését fenntartott jogként kezeli. Az alkalmazandó törvényi kivételek, platformjogok és a Schema.org külön licence érintetlenek. A szakmai együttműködésre nyitottak vagyunk; részletek: [CONTRIBUTING.md](CONTRIBUTING.md).
+A Chrome Web Store közzététele nem jelent Google- vagy Schema.org-szakmai minősítést. A részletes [angol szakmai leírás](https://www.wikiai.hu/wikiai-schema-peek-a-practical-json-ld-and-entity-engineering-tool-for-chrome/) a WikiAI.hu-n olvasható. A [kétnyelvű licenc](LICENSE.md) 2026. november 26-án elfogadott 1.0 változata az ingyenes magán- és üzleti használatot engedi, az eredeti, oltalom alatt álló kód módosítását és továbbterjesztését fenntartott jogként kezeli. Az alkalmazandó törvényi kivételek, platformjogok és a Schema.org külön licence érintetlenek. A szakmai együttműködésre nyitottak vagyunk; részletek: [CONTRIBUTING.md](CONTRIBUTING.md).
